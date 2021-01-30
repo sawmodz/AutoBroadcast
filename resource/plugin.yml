@@ -1,0 +1,8 @@
+name: ${pom.name}
+version: ${pom.version}
+author: Theo
+website: https://github.com/sawmodz/AutoBroadcast
+api-version: 1.8.8
+main: plugins.autobroadcast.pluginsmanageur.Main
+commands:
+  reload:

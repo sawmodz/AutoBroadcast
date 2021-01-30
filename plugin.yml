@@ -1,4 +1,0 @@
-name: AutoBroadcast
-version: 1.0
-author: Theo
-main: plugins.autobroadcast.pluginsmanageur.Main

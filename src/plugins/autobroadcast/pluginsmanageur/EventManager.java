@@ -1,4 +1,4 @@
-package Plugins.GameName.PluginsManageur;
+package plugins.autobroadcast.pluginsmanageur;
 
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.Plugin;

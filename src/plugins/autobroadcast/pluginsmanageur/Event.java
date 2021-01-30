@@ -1,4 +1,4 @@
-package Plugins.GameName.PluginsManageur;
+package plugins.autobroadcast.pluginsmanageur;
 
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;

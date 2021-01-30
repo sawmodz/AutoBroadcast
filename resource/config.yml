@@ -1,5 +1,5 @@
 messages:
-  message1: "Salut c'est moi le message"
-  message2: "je ne t'aime pas"
+  - "Salut c'est moi le message"
+  - "je ne t'aime pas"
 # Temps en secondes ou un message aleatoire va s'envoyer
 timeExecuteBroadcast: 60

@@ -34,11 +34,9 @@ public class Main extends JavaPlugin {
 		super.reloadConfig();
 		ConfigAnnotation.loadClass(getConfig(), Main.class);
 		Main.MESSAGES.clear();
-		Bukkit.broadcastMessage("loaded from config: " + Main.configMessage);
 		if (Main.configMessage == null || Main.configMessage.isEmpty())
 			return;
 		Main.MESSAGES.addAll(Main.configMessage);
-		Bukkit.broadcastMessage("list content " + Main.MESSAGES.size());
 		if (timeExecuteBroadCast < 1)
 			timeExecuteBroadCast = 1;
 		this.bukkitTask = Bukkit.getScheduler().runTaskTimer(this, this.broadcastScheduler, 0, Main.timeExecuteBroadCast * 20L);
